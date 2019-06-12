@@ -51,6 +51,13 @@
 		<config-file target="*/Entitlements-Release.plist" parent="com.apple.developer.networking.wifi-info">
 		    <true/>
 		</config-file>
+		<config-file target="*/Roqos Home-Info.plist" parent="NSPhotoLibraryUsageDescription">
+			<string>App would like to access your camera and photo gallery for profile photo upload. Your photos won't be shared without your permission.</string>
+		</config-file>
+
+		<config-file target="*/Roqos Home-Info.plist" parent="NSCameraUsageDescription">
+			<string>App would like to access your camera and photo gallery for profile photo upload. Your photos won't be shared without your permission.</string>
+		</config-file>
 		
 		<header-file src="src/ios/NXWWifiWizard.h"/>
 		<source-file src="src/ios/NXWWifiWizard.m"/>
